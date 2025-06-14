@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio 2 - Contador de Stickers</title>
+    <link rel="stylesheet" href="assets/style/ej2.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Ejercicio 2: Contador de Stickers</h1>
+
+      <div class="stickers">
+        <div class="sticker-box">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/2909/2909733.png"
+            alt="Sticker 1"
+          />
+          <input type="number" id="sticker1" min="0" placeholder="0" />
+        </div>
+        <div class="sticker-box">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/742/742751.png"
+            alt="Sticker 2"
+          />
+          <input type="number" id="sticker2" min="0" placeholder="0" />
+        </div>
+        <div class="sticker-box">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/1208/1208618.png"
+            alt="Sticker 3"
+          />
+          <input type="number" id="sticker3" min="0" placeholder="0" />
+        </div>
+      </div>
+
+      <button onclick="verificarStickers()">Verificar</button>
+      <p id="resultado"></p>
+
+      <a class="volver" href="index.html">⬅ Volver al Índice</a>
+    </div>
+
+    <script src="assets/script/script.js"></script>
+  </body>
+</html>

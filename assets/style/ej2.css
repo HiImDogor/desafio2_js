@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #121212;
+  color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  color: #00f0ff;
+  text-shadow: 0 0 8px #00f0ff;
+  margin-bottom: 40px;
+}
+
+.stickers {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.sticker-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sticker-box img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.sticker-box img:hover {
+  transform: scale(1.1);
+}
+
+input[type="number"] {
+  width: 60px;
+  padding: 5px;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+
+button {
+  margin-top: 20px;
+  background-color: #00f0ff;
+  color: #121212;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #00cce0;
+}
+
+#resultado {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.volver {
+  display: inline-block;
+  margin-top: 30px;
+  text-decoration: none;
+  color: #00f0ff;
+  border: 2px solid #00f0ff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.volver:hover {
+  background-color: #00f0ff;
+  color: #121212;
+}
